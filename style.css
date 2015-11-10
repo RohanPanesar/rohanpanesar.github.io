@@ -34,6 +34,7 @@
 }
 .portfolio{
   background-image:url(https://i.imgur.com/7oEXT7R.jpg);
+  height:100%;
 }
 .portfolio h2{
   padding-top: 10px;
