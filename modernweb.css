@@ -1,0 +1,49 @@
+@@ -0,0 +1,48 @@
+.html{
+  size:20000px;
+  background-color: #e5e5e5;
+}
+.jumbotron{
+  bacground-image:url(https://i.imgur.com/7oEXT7R.jpg);
+}
+.jumbotron {
+  height:100%;
+  background-image:url(https://i.imgur.com/7oEXT7R.jpg);
+  background-repeat: no-repeat;
+}
+
+.jumbotron .container {
+  margin-left: auto;
+      margin-right: auto;
+      width: 6em;
+  position: relative;
+  top:250px;
+  width: 500px;
+  padding:25px;
+  border:5px solid black;
+  margin:25px;
+}
+
+.jumbotron h1 {
+  color: #e5e5e5;
+  font-size: 48px;
+  font-family: 'Raleway', sans-serif;
+  padding:25px;
+}
+
+.jumbotron h2 {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #cccccc;
+}
+.arrow{
+  position:fixed;
+  bottom:0;
+
+}
+.arrow .container {
+
+  display: block;
+margin-left: auto;
+margin-right: auto
+}
