@@ -16,7 +16,7 @@
   width: 500px;
   border:5px solid black;
   margin:25px;
-  padding-bottom:50%;
+  padding-bottom:-50%;
 }
 
 .jumbotron h1 {
