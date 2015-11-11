@@ -7,17 +7,7 @@
   background-size:auto;
 }
 
-.jumbotron .container {
-  margin-left: auto;
-      margin-right: auto;
-  padding:25px;
-  position: relative;
-  top:250px;
-  width: 500px;
-  border:5px solid black;
-  margin:25px;
-  padding-bottom:-50%;
-}
+
 
 .jumbotron h1 {
   color: #e5e5e5;
