@@ -10,7 +10,7 @@
 .jumbotron .container {
   margin-left: auto;
       margin-right: auto;
-      width: 6em;
+  padding:25px;
   position: relative;
   top:250px;
   width: 500px;
