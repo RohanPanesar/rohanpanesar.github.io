@@ -163,16 +163,16 @@ Cloud = function() {
 }
 
 ///////////////////////////////
-//Random positions of butts //
+//Random positions of Clouds //
 ///////////////////////////////
 
 Sky = function() {
     this.mesh = new THREE.Object3D();
-    this.nButts = 20;
-    var stepAngle = Math.PI * 2 / this.nButts;
+    this.nClouds = 20;
+    var stepAngle = Math.PI * 2 / this.nClouds;
 
-    for (var i = 0; i < this.nButts; i++) {
-        var c = new Butt();
+    for (var i = 0; i < this.nClouds; i++) {
+        var c = new Cloud();
         var a = stepAngle * i
         var h = 750 + Math.random() * 200
 
