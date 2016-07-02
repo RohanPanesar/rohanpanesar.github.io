@@ -86,7 +86,7 @@ function handleWindowResize() {
     WIDTH = window.innerWidth;
     renderer.setSize(WIDTH, HEIGHT);
     camera.aspect = WIDTH / HEIGHT;
-    camera.updateProjectMatrix();
+    camera.updateProjectionMatrix();
 }
 ///////////
 //Lights //
@@ -138,7 +138,7 @@ function createSea() {
     scene.add(sea.mesh);
 }
 
-Cloud = function() {
+Butt = function() {
     this.mesh = new THREE.Object3D();
     var geom = new THREE.BoxGeometry(20, 20, 20);
     var mat = new THREE.MeshPhongMaterial({
@@ -163,16 +163,16 @@ Cloud = function() {
 }
 
 ///////////////////////////////
-//Random positions of clouds //
+//Random positions of butts //
 ///////////////////////////////
 
 Sky = function() {
     this.mesh = new THREE.Object3D();
-    this.nClouds = 20;
-    var stepAngle = Math.PI * 2 / this.nClouds;
+    this.nButts = 20;
+    var stepAngle = Math.PI * 2 / this.nButts;
 
-    for (var i = 0; i < this.nClouds; i++) {
-        var c = new Cloud();
+    for (var i = 0; i < this.nButts; i++) {
+        var c = new Butt();
         var a = stepAngle * i
         var h = 750 + Math.random() * 200
 
