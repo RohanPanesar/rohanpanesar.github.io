@@ -138,7 +138,7 @@ function createSea() {
     scene.add(sea.mesh);
 }
 
-Butt = function() {
+Cloud = function() {
     this.mesh = new THREE.Object3D();
     var geom = new THREE.BoxGeometry(20, 20, 20);
     var mat = new THREE.MeshPhongMaterial({
